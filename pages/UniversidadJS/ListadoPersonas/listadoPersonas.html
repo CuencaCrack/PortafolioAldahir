@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listado de Personas</title>
+    <link
+      href="/pages/UniversidadJS/ListadoPersonas/css/estilos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="mostrarPersonas()">
+    <div class="contenedor" id="cabecero">
+      <h1>Listado de Personas</h1>
+    </div>
+
+    <div class="contenedor">
+      <div class="elemento">
+        <ul id="personas">
+          <!--Aldahir-->
+        </ul>
+      </div>
+    </div>
+
+    <div class="contenedor">
+      <div style="text-align: center">
+        <button style="cursor: pointer" onclick="agregarPersona()">+</button>
+      </div>
+      <form id="forma">
+        <input type="text" id="nombre" placeholder="Introduce Nombre" />
+        <input type="text" id="apellido" placeholder="Introduce apellido" />
+      </form>
+    </div>
+    <script src="/pages/UniversidadJS/ListadoPersonas/js/persona.js"></script>
+    <script src="/pages/UniversidadJS/ListadoPersonas/js/app.js"></script>
+  </body>
+</html>
